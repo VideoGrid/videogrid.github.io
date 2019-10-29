@@ -1,0 +1,31 @@
+body{
+    color: #404040;
+}
+.homepage{
+    min-height: 25rem;
+    /*border-bottom: 1px solid #efefef;*/
+}
+.homepage h1 {
+    margin-top: 10rem;
+}
+.homepage p {
+    font-size: 1.3rem;
+    /*color: #2f8e98;*/
+}
+.homepage a.btn{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    background-color: #0f7da7;
+    border-color: #0f7da7;
+        border-radius: 2.4rem;
+}
+h3{
+    font-size: 1.55rem;
+}
+p{
+    color: #636363;
+}
+
+.right-border{
+    border-right: 1px solid #efefef;
+}
