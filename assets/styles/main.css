@@ -11,6 +11,8 @@ body, html {
     padding-bottom: 5rem;
     min-height: 110%;
     /*border-bottom: 1px solid #efefef;*/
+    background: linear-gradient( rgba(43, 43, 43, 0.86) 100%, rgba(43, 43, 43, 0.86) 100%),url(https://images.unsplash.com/photo-1473694043131-fb0b5da4e14c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+
 }
 
 .tagline {
@@ -32,7 +34,8 @@ body, html {
 .homepage p {
     font-size: 1.1rem;
     /*color: white;*/
-    color: #a8b2d1 !important;
+        color: #d1cfd0 !important;
+
 }
 
 .header .text-dark {
@@ -42,7 +45,7 @@ body, html {
 .homepage a.btn {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
-    background-color: #3b49a7;
+    background-color: transparent !important;
     border-color: #dddfe09e;
     border-radius: 2.4rem;
     border: 1.5px solid;
@@ -68,10 +71,13 @@ p {
 }
 
 .about-us {
-    padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
 }
 
+.about-us p {
+    font-size: 1rem;
+}
 .header-nav {
     margin-bottom: 0 !important;
 }
